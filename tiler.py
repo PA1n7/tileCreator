@@ -60,9 +60,11 @@ class tiledMap:
                 item = self.definitions[self.conf[y][x]]
                 if type(item) == str:
                     #it is a file here
-                    img = pygame.image.load(item)
+                    img = pygame.image.load(item).convert_alpha()
+                    img = pygame.transform.scale(img, (self.hSize, self.vSize))
                     self.img.blit(img, _tile_rect)
                 else:
+                    #it is an color here
                     pygame.draw.rect(self.img, item, _tile_rect)
     def draw(self):
         self.create_map()

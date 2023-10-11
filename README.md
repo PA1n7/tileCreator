@@ -5,13 +5,13 @@
 ## Log
 11/10/23:
 1. Made it possible to add a conf as a text
-2. Conf can now be uploaded as a file of type .txt or .json
-3. defs can now be uploaded as a file either .txt or .json
+1. Conf can now be uploaded as a file of type .txt or .json
+1. defs can now be uploaded as a file either .txt or .json
+1. Used a secondary screen for less processing during runtime
+1. Created the draw function
+1. Able to add colors and images interchangeably
+1. Error handlers for several errors such as differing width across the conf file or missing definition in the defs
+1. Created the update function
+1. Created an example file
 
-## TODO
-
-- Create secondary screen for less processing during runtime
-- Create the draw function
-- Create the possiblity to add colors and images interchangeably
-- Error handlers for image not found
-- Create update function
+## ~ TODO ~
