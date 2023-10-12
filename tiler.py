@@ -31,6 +31,8 @@ class tiledMap:
         self.convert_conf()
         self.hSize = screen_size[0]/len(self.conf[0])
         self.vSize = screen_size[1]/len(self.conf) if not squareTiles else self.hSize
+        self.hSize = int(self.hSize) + 1
+        self.vSize = int(self.vSize) + 1
         self.create_map()
     def convert_conf(self):
         if len(self.conf.split("\n")) == 1 and self.conf.split(".")[1] in ["txt", "json"]:

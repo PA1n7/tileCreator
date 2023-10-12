@@ -3,7 +3,7 @@ import pygame
 
 pygame.init()
 
-screen = pygame.display.set_mode((600, 600))
+screen = pygame.display.set_mode((800, 800))
 
 background = tiler.tiledMap(screen, "example_conf.txt", "example_defs.json")
 

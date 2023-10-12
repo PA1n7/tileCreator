@@ -13,5 +13,6 @@
 1. Error handlers for several errors such as differing width across the conf file or missing definition in the defs
 1. Created the update function
 1. Created an example file
+1. Adjusted to decimal tile sizes
 
 ## ~ TODO ~
